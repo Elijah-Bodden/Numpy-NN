@@ -5,7 +5,7 @@ Neural nets from scratch in numpy with:
 - Batch normalization
 - Gradient clipping
 - Dropout
-- (Optionally Nesterov) momentum
+- Nesterov and standard momentum
 - Optional learning-rate scheduling
 - Adam, RMSprop, Adagrad, and Adadelta optimizers
 - And more
