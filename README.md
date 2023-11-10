@@ -8,6 +8,7 @@ A fully-connected deep neural network built from scratch in numpy with:
 - Momentum with optional Nesterov acceleration
 - Optional learning-rate scheduling
 - Adam, RMSprop, Adagrad, and Adadelta optimizers
+- And more
 
 ## Hyperparameters and implementation details
 The project is implemented in three parts: Network, Layer, and Accessories
