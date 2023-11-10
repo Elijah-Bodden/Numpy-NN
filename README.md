@@ -71,4 +71,4 @@ Args:
 The accessories class contains pluggable, modifiable functions like the partial backpropagation algorithm, initializers, utilities, and activation functions that can be passed to the Network and Layer classes to customize their behavior.
 
 ## Data
-In the example net we train on the MNIST dataset, but any two numpy arrays - one full of flattened input activations and one of the target outputs - will work to train the network class.
+The example net trains on the MNIST dataset loaded with `dataLoader.py`, but any two numpy arrays - one full of flattened input activations and one of the target outputs - will work to train the network class.
