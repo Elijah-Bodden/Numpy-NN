@@ -28,8 +28,8 @@ class Layer:
         :param learning_rate_function function: function accepting one parameter (the current timestep) and returning a learning rate
         :param do_momentum bool: whether to use momentum (only applies if adaptive_type isn't set)
         :param momentum_is_nesterov bool: whether to use nesterov acceleration if/when we do momentum (whether we subtract the momentum term from the weights when doing a non-inference forward pass)
-        :param decay_rate float: decay rate for momentum and RMSprop-like optimizers (equal to beta in adam and adadelta)
-        :param second_rms_decay_rate float: separate decay rate for the second RMS in adadelta and adam
+        :param decay_rate float: decay rate for momentum and RMSprop-like optimizers (equal to beta1 in adam)
+        :param second_rms_decay_rate float: separate decay rate for adam-like optimizers (beta2 in adam)
         :param adaptive_type string: preset optimizer type, overrides momentum-related parameters - one of [None, "adagrad", "adam", "rmsprop", or "adadelta"]
         :param RMS_epsilon float: epsilon value for RMS-like preset optimizers
         """
