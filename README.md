@@ -1,7 +1,7 @@
 # Numpy-NN
 Neural nets from scratch in numpy with:
 - MSE/cross-entropy loss, ELU/Sigmoid/Softmax activation functions, Xavier initialization
-- Optinal L1/2 regularization
+- Optional L1/2 regularization
 - Batch normalization
 - Gradient clipping
 - Dropout
